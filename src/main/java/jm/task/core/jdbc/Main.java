@@ -12,10 +12,6 @@ public class Main {
     static UserService userService = new UserServiceImpl();
 
     public static void main(String[] args) {
-        Util util = new Util();
-        util.getConnection();
-
-        //UserDao userDao = new UserDaoJDBCImpl();
 
         userService.createUsersTable();
         userService.saveUser("Ivan", "Goodman", (byte) 25);

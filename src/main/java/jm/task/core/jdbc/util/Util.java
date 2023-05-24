@@ -17,11 +17,11 @@ public class Util {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        try {
+/*        try {
             statement = connection.createStatement();
         } catch (SQLException e) {
             throw new RuntimeException(e);
-        }
+        }*/
         return connection;
     }
 
