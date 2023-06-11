@@ -12,7 +12,6 @@ import javax.persistence.Query;
 import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
-    SessionFactory sessionFactory;
 
     public UserDaoHibernateImpl() {
 
